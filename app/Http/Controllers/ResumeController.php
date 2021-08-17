@@ -18,14 +18,14 @@ class ResumeController extends Controller
     public function store(Request $request){
 
         
-        $response = new Response();
-        $response->name = $request->get('name');
-        $response->email = $request->get('email');
-        $response->subject = $request->get('subject');
-        $response->message = $request->get('message');
-        $response->save();
+        // $response = new Response();
+        // $response->name = $request->get('name');
+        // $response->email = $request->get('email');
+        // $response->subject = $request->get('subject');
+        // $response->message = $request->get('message');
+        // $response->save();
 
-        $to_email = "olalekantemitayo7@gmail.com";
+        // $to_email = "olalekantemitayo7@gmail.com";
 
         Mail::send('email-template', [
             'name' => $request->get('name'),
