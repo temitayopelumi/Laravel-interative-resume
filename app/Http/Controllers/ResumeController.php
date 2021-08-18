@@ -44,7 +44,7 @@ class ResumeController extends Controller
                     ->subject('Hello');
     });
 
-    return back()->with('success', 'Thanks for contacting me, I will get back to you soon!');
+    return('Thanks for contacting me, I will get back to you soon!');
  
 
         

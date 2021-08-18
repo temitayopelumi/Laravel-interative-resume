@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo asset('css/style.css') ?>" type="text/css">
     <title>Resume</title>
     <style>
@@ -158,7 +158,7 @@ ul.desc, ul.cert-date {
                         <h4>HNG Internship <span>— &nbsp; Lagos</span></h4>
                     </div>
                     <p>Software Engineer</p>
-                    <p class="date">08/2021 - </p>
+                    <p class="date">07/2021 - </p>
                     <ul class="desc">
                         <li>Building Web services with Laravel.
                         </li>
@@ -236,7 +236,7 @@ ul.desc, ul.cert-date {
 
 
         <div class="row form-container">
-            <div class="col-md-8"></div>
+            <div class="col-md-4"></div>
             <div class="contact-form card" style="width: 450px;">
                 <h1 style="text-align: center;">Contact me</h1>
                 <form method="post" action="/" enctype="multipart/form-data">
