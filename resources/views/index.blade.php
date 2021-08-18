@@ -21,7 +21,7 @@
 }
 
 .name-desc{
-    width: 65%;
+    width: 55%;
 }
 
 h1{
@@ -36,7 +36,7 @@ h1{
 }
 
 .profile-details {
-    width: 30%;
+    width: 40%;
 }
 
 .profile-details .address-email {
@@ -149,7 +149,7 @@ ul.desc, ul.cert-date {
             <h3>Experience</h3>
             <div class="work-experience">
                     <div class="heading-img">
-                        <img src="https://i.imgur.com/OcE4iVn.png" alt="hotels-ng-ingressive-for-good">
+                        <img src="resources/download.png" alt="hotels-ng-ingressive-for-good">
                         <h4>HNG Internship <span>— &nbsp; Lagos</span></h4>
                     </div>
                     <p>Software Engineer</p>
@@ -163,7 +163,6 @@ ul.desc, ul.cert-date {
             </div>
             <div class="work-experience">
                     <div class="heading-img">
-                        <!-- <img src="https://i.imgur.com/OcE4iVn.png" alt="hotels-ng-ingressive-for-good"> -->
                         <h4>Cyberfleetng <span>— &nbsp; Lagos</span></h4>
                     </div>
                     <p>Software Engineer</p>
