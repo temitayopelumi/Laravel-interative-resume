@@ -168,6 +168,7 @@ ul.desc, ul.cert-date {
             </div>
             <div class="work-experience">
                     <div class="heading-img">
+                    <img src="https://www.facebook.com/cyberfleetng/photos/2354610014765334" alt="hotels-ng-ingressive-for-good">
                         <h4>Cyberfleetng <span>— &nbsp; Lagos</span></h4>
                     </div>
                     <p>Software Engineer</p>
