@@ -7,6 +7,98 @@
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="<?php echo asset('css/style.css') ?>" type="text/css">
     <title>Resume</title>
+    <style>
+        .header {
+    padding: 2rem 0rem;
+    display: block;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.name-desc{
+    width: 65%;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.name-desc p {
+    padding-top: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.profile-details {
+    width: 30%;
+}
+
+.profile-details .address-email {
+    line-height: 1.65;
+    padding-bottom: 1.32rem;
+}
+
+div.social-links {
+    padding-left: 1.5rem;
+    line-height: 1.65;
+    font-size: 0.85rem;
+}
+
+.skills-exp-edu {
+    width: 60%;
+}
+
+h3 {
+    font-size: 1.325rem;
+    text-transform: uppercase;
+    color: blue;
+}
+
+
+.work-experience, .education-desc {
+    width: 100%;
+    margin-top: 1.625rem;
+}
+.heading-img {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding-bottom: 0.65rem;
+}
+
+.work-experience p, .education-desc p {
+    font-size: 0.95rem;
+    font-weight: 400;
+    /* line-height: 1.85; */
+}
+
+ul.desc, ul.skills-list, ul.strength-list, ul.lang-list, ul.cert-date {
+    padding-left: 1.65rem;
+    padding-top: 1.125rem;
+    /* line-height: 1.65; */
+}
+
+.skills-project {
+    width: 40%;
+}
+
+.project-listing p {
+    line-height: 1.65;
+    padding-top: 0.35rem;
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+
+ul.desc, ul.cert-date {
+    list-style-type: ' ☯ ';
+}
+    </style>
 </head>
 
 <body>
