@@ -26,6 +26,13 @@ class ResumeController extends Controller
         // $response->save();
 
         // $to_email = "olalekantemitayo7@gmail.com";
+        
+
+        $this->validate($request, [
+            'name' => 'required',
+            'email' => 'required|email',
+            'message' => 'required'
+         ]);
 
         Mail::send('email-template', [
             'name' => $request->get('name'),
@@ -38,6 +45,7 @@ class ResumeController extends Controller
     });
 
     return back()->with('success', 'Thanks for contacting me, I will get back to you soon!');
+ 
 
         
     }
