@@ -72,6 +72,11 @@ h3 {
     padding-bottom: 0.65rem;
 }
 
+img  {
+    width: 20px;
+    height: 30px;
+}
+
 .work-experience p, .education-desc p {
     font-size: 0.95rem;
     font-weight: 400;
@@ -149,7 +154,7 @@ ul.desc, ul.cert-date {
             <h3>Experience</h3>
             <div class="work-experience">
                     <div class="heading-img">
-                        <img src="resources/download.png" alt="hotels-ng-ingressive-for-good">
+                    <img src="https://i.imgur.com/OcE4iVn.png" alt="hotels-ng-ingressive-for-good">
                         <h4>HNG Internship <span>— &nbsp; Lagos</span></h4>
                     </div>
                     <p>Software Engineer</p>
