@@ -171,7 +171,7 @@ ul.desc, ul.cert-date {
                     <img src="https://www.facebook.com/cyberfleetng/photos/2354610014765334" alt="hotels-ng-ingressive-for-good">
                         <h4>Cyberfleetng <span>— &nbsp; Lagos</span></h4>
                     </div>
-                    <p>Software Engineer</p>
+                    <p>Backend Developer</p>
                     <p class="date">08/2021 - present</p>
                     <ul class="desc">
                         <li>Building Web services with Laravel.
